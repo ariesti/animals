@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- This is the complete html file for our project -->
+
+<html lang="en">
+  <head>
+
+  <!-- use the head section to define meta data and load css and js files -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Animals</title>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/handlebars-v3.0.3.js"></script>
+
+  <!-- these are our JS files -->
+    <script src="js/AnimalsData.js"> </script>
+    <script src="js/assignment.js"> </script>  
+
+  <!-- link to bootstrap theme and assignment css stylesheet -->  
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/assignment.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+  <!-- page header -->    
+    <div class="container-fluid">
+      <div class="page-header">
+        <h2><center>Animals</center></h2>
+        <h4><center>by <a href="http://github.com/ariesti">@Ariesti</a></center></h4>
+      </div>
+
+  <!-- start breadcrumb -->    
+      <ol class="breadcrumb">
+        <li><a href="#" id="categories-crumb">Categories</a></li>
+      </ol>
+      <div id="content" role="main">
+      </div>
+    </div>
+
+
+  <!-- Script 1 template for categories -->   
+    <script id="categories-template" type="text/x-handlebars-template">
+      <div class="row">
+        <div class="col-md-12">
+        </div>
+      </div>
+      <div class="row">
+        {{#each category}}
+        <div class="col-md-4">
+          <div class="category-thumbnail" data-id="{{@index}}">
+            <h3><left>{{name}}</left></h3>
+            <img src="{{animals.[0].image1}}" class="img-responsive img-thumbnail">
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </script>
+
+  <!-- Script 2 template for category -->  
+    <script id="category-template" type="text/x-handlebars-template">
+      <div class="row">
+        <div class="col-md-12">
+ 
+        </div>
+      </div>
+      <div class="row">
+        {{#each animals}}
+        <div class="col-md-3">
+          <div class="animal-thumbnail" data-id="{{@index}}">
+            <h3>{{name}}</h3>
+            <img src="{{image1}}" alt="" class="img-responsive img-thumbnail"/>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </script>
+
+  <!-- Script 3 template for animal -->  
+    <script id="animal-template" type="text/x-handlebars-template">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>{{name}}</h3>
+        </div>
+      </div>
+      <div class="row">
+        
+        <div class="col-md-3">
+          <img src="{{image1}}" alt="" class="img-responsive img-thumbnail"/>
+        </div>
+        <div class="col-md-3">
+          <img src="{{image2}}" alt="" class="img-responsive img-thumbnail"/>
+        </div>
+
+        <div class="col-md-6">
+          <p>{{description}}</p>
+        </div>
+
+      </div>
+    </script>
+
+  <!-- start breadcrumb -->  
+    <script id="breadcrumb-template" type="text/x-handlebars-template">
+      <li>
+      <a href="#" id="{{type}}-crumb">{{name}}</a>
+      </li>
+    </script>
+
+
+  <!-- start footer -->
+    <footer class="footer">
+    <hr>
+      <div class="container-fluid">
+        <center><blockquote>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+        </blockquote></center>
+      </div>
+    </footer>
+
+  </body>
+</html>
