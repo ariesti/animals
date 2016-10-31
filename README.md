@@ -5,7 +5,7 @@ This repository stores the code and details to my final project for the responsi
 
 In this peer assessment you will be making a web site that is created from data. We will provide you some JavaScript code that creates a complex data structure and you should create a website to display that data. You should use templates to display the data and the layout of your site should be appropriate to the data. You should provide suitable navigation and it should always be clear where users are, where they can go and what they can do.
 
-### Detailed instructions:
+#### Detailed instructions:
 
 For this assessment you should create a data driven website that uses html, css, JavaScript and templates to display some data. This data will be some creative commons material taken from wikipedia about different animals.
 
@@ -26,7 +26,9 @@ Each object has the following member variables:
 * image1: an image of an example of the species
 * image2: a second, alternative, image
 
-### You should create the following:
+### Outcome
+
+You should create the following:
 
 1. A HTML file containing the structures of your page, including templates designed to display the data
 2. A JavaScript file that maps the data onto the templates and provides any interactivity
