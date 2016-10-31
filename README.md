@@ -36,3 +36,11 @@ You should create the following:
 4. The layout of the site should be appropriate to the data and display it in a clear and understandable way. It should provide suitable navigation functions and the overall layout and design should reflect the guidelines we have described in this MOOC.
 
 You should submit **a zip file** containing everything you need to run the website, including the original data file, an html file, a css file and a JavaScript file, as well as any images and other files you need (including JavaScript libraries such as jquery, handlebars and bootstrap.
+
+# Our Project on the Web
+
+We host our website on the web, so you can have a look at this project on the internet. 
+
+![screenshot](screenshot01.png)
+
+More images on [animals](http://ariesti.bitballoon.com)
