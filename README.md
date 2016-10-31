@@ -39,7 +39,7 @@ You should submit **a zip file** containing everything you need to run the websi
 
 # Our Project on the Web
 
-We host our website on the web, so you can have a look at this project on the internet. 
+We host our website on the web, so you can have a look at this project. 
 
 ![screenshot](screenshot01.png)
 
