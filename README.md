@@ -1,4 +1,4 @@
-# animals
+# Our animals
 This repository stores the code and details to my final project for the responsive web design course with University of London and Coursera. 
 
 #### Instructions
