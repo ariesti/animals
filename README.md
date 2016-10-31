@@ -1,7 +1,7 @@
 # animals
 This repository stores the code and details to my final project for the responsive web design course with University of London and Coursera. 
 
-### Instructions
+#### Instructions
 
 In this peer assessment you will be making a web site that is created from data. We will provide you some JavaScript code that creates a complex data structure and you should create a website to display that data. You should use templates to display the data and the layout of your site should be appropriate to the data. You should provide suitable navigation and it should always be clear where users are, where they can go and what they can do.
 
@@ -11,7 +11,7 @@ For this assessment you should create a data driven website that uses html, css,
 
 You can find a zip file link below (not included here) that contains everything you need to start.
 
-### The zip file contains the following:
+#### The zip file contains the following:
 
 * the JavaScript and css libraries you might need (jquery, bootstrap, handlebars)
 * empty JavaScript and CSS files to put your code in
@@ -26,7 +26,7 @@ Each object has the following member variables:
 * image1: an image of an example of the species
 * image2: a second, alternative, image
 
-### Outcome
+#### Outcome
 
 You should create the following:
 
